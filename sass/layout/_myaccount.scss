@@ -1,0 +1,109 @@
+@use '../abstracts' as var;
+
+#account {
+
+  .container-narrow.pages-container {
+    max-width: 95%;
+
+    @media screen and (min-width: 1200px) {
+      max-width: 60%;
+    }
+  }
+
+  .content {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  .woocommerce {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+
+    &::before {
+      position: absolute;
+    }
+
+  #customer_login {
+      margin-bottom: 2em;
+    }
+
+    h2 {
+      font-size: 3rem;
+      color: var.$terracota;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1;
+      margin-block: 1em 0.5em;
+
+      @media screen and (min-width: 770px) {
+        margin-block: 0 0.5em;
+      }
+    }
+
+    p:not(:last-of-type) {
+      margin-bottom: 1em;
+    }
+  }
+
+  .woocommerce-order-details {
+    margin-block: 2em;
+  }
+
+}
+
+.account-title {
+  font-size: 3rem;
+  color: var.$terracota;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.woocommerce-form-register {
+  color: var.$sable;
+
+  .woocommerce-form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .woocommerce-Button {
+    background: var.$terracota !important;
+    color: var.$sable !important;
+    border-radius: 10px !important;
+    position: relative;
+    font-weight: var.$bold !important;
+    text-transform: uppercase;
+    padding: 1.4rem 3.7rem !important;
+    border: none;
+    margin-inline: auto;
+
+    @media screen and (min-width: 770px ) {
+      margin-inline: 0;
+    }
+
+    &::after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      border: 1px solid var.$terracota;
+      border-radius: 10px;
+      position: absolute;
+      top: 5%;
+      left: 1%;
+      transition: .3s ease-in-out;
+    }
+
+    &:hover::after {
+      top: 10%;
+      left: 5%;
+    }
+  }
+}

@@ -1,0 +1,227 @@
+@use '../abstracts' as var;
+
+.contact .container-narrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+
+  @media screen and (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 1fr 379px;
+    gap: 1.1em;
+  }
+}
+
+.contact-content {
+  width: 100%;
+  border: 1px solid var.$bleu_glacié;
+  border-radius: 10px;
+
+  h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    display: block;
+    width: 95%;
+    padding-bottom: 1em;
+    margin-bottom: 4.1rem;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    position: relative;
+
+
+    @media screen and (min-width: 988px) {
+      width: 65%;
+    }
+  }
+}
+
+.contact-wrapper {
+  background: var.$bleu_glacié;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 7.2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+
+  @media screen and (min-width: 1000px) {
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    row-gap: 1.5em;
+    column-gap: 1em;
+  }
+}
+
+.name {
+  @media screen and (min-width: 1000px) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+.mail {
+  @media screen and (min-width: 1000px) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
+
+.telephone {
+  @media screen and (min-width: 1000px) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.message {
+  @media screen and (min-width: 1000px) {
+    width: 100%;
+    grid-column: 1 / 3;
+    grid-row: 3;
+
+    textarea {
+      width: 100%;
+    }
+  }
+}
+
+label {
+  font-size: 1.7rem;
+  color: var.$roche;
+}
+
+.contact-wrapper :is(input, textarea) {
+  border-radius: 10px;
+  border: 1px solid var.$bleu_odysée;
+  color: var.$roche;
+  background: white;
+  font-size: 1.7rem;
+  padding: 0.5em 1em;
+}
+
+.submit {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  pointer-events: none;
+
+  input {
+    pointer-events: all;
+  }
+
+  @media screen and (min-width: 1000px) {
+    grid-column: 1 / 3;
+    grid-row: 4;
+    justify-self: center;
+    align-self: center;
+  }
+
+  @media screen and (min-width: 358px) {
+    width: fit-content;
+  }
+
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    transition: 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+    top: 10%;
+    left: 3%;
+  }
+}
+
+.wpcf7-spinner {
+  position: absolute !important;
+}
+
+.contact-wrapper input[type="submit"] {
+  background: white;
+  border: none;
+  color: var.$terracota;
+  text-transform: uppercase;
+  padding: 1.4rem 3.7rem;
+  font-weight: 300;
+}
+
+form, label, input, textarea, #wpcf7-f319-o1 {
+  max-width: 100%;
+}
+
+.coord {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 588px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+
+    img:first-of-type {
+      grid-column: 1 / 3;
+      grid-row: 1;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    margin-top: 0;
+    justify-content: start;
+    align-self: start;
+
+    img:first-of-type {
+      grid-column: unset;
+      grid-row: unset;
+    }
+  }
+
+  address {
+    margin-top: 3.4rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var.$roche;
+
+    p:first-of-type {
+      max-width: 200px;
+    }
+
+    div {
+      margin-top: 1.5rem;
+    }
+  }
+
+  .address-img {
+    margin-top: 4.5rem;
+    border-radius: 10px;
+  }
+}
+
+.horaires-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

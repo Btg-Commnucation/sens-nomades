@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f75b3db-adb9-4b7f-8b45-88cb1f7369c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/blocks/google-docs-embed/view.asset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/blocks/google-docs-embed/view.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/blocks/google-docs-embed/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/blocks/google-docs-embed/view.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/blocks/map/view.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/blocks/payment-buttons/view.asset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/blocks/payment-buttons/view.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/blocks/payment-buttons/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/blocks/payment-buttons/view.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/_inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-google-docs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/extensions/blocks/google-docs-embed/google-docs-embed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/extensions/blocks/payment-buttons/payment-buttons.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/extensions/extended-blocks/videopress-video/videopress-video.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/src/class-post-list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/src/class-post-thumbnail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/src/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/tests/php/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/tests/php/test-post-list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-post-list/tests/php/test-post-thumbnail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-search/compatibility/search-0.17.0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/admin/index.asset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/admin/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/admin/index.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/admin/index.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/index.asset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/index.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/index.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/view.asset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/view.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/block-editor/view.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/lib/videopress-token-bridge.asset.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/build/lib/videopress-token-bridge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-admin-ui.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-ajax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-attachment-handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-jwt-token-bridge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-module-control.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-package-version.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-upload-exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-uploader-rest-endpoints.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-uploader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/class-wpcom-rest-api-v2-endpoint-videopress.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/admin-page/styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/checkbox/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/checkbox/stories/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/checkbox/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/checkbox/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/clipboard-button-input/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/clipboard-button-input/stories/ClipboardButtonInput.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/clipboard-button-input/stories/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/clipboard-button-input/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/clipboard-button-input/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/logo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/logo/stories/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/pagination/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/pagination/stories/Pagination.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/pagination/stories/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/pagination/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/pagination/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/video-row/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/video-row/stories/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/video-row/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/video-upload-area/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/video-upload-area/stories/VideoUploadArea.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/video-upload-area/stories/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/video-upload-area/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/components/video-upload-area/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/admin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/inspector-controls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/poster-image-block-control/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/poster-image-block-control/style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/seekbar-color-settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/videopress-player/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/videopress-uploader/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/videopress-uploader/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/videopress-uploader/uploader-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/videopress-uploader/uploader-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/components/videopress-uploader/uploader-progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/save.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/scripts/vp-block-bridge/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/scripts/vp-block-bridge/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/blocks/video/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/block-editor/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/client/lib/videopress-token-bridge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/tus/class-file-exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/tus/class-transient-store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/tus/class-tus-abstract-cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/tus/class-tus-client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/tus/class-tus-date-utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/tus/class-tus-exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/tus/class-tus-file.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/src/utility-functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/jetpack_vendor/automattic/jetpack-videopress/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/jetpack/modules/post-list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/css/admin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/css/frontend.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/css/frontend.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/js/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/js/admin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/js/frontend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/js/frontend.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/js/jquery.serializejson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/js/jquery.serializejson.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/js/wp-color-picker-alpha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/assets/js/wp-color-picker-alpha.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/images/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-compatibility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-deactivate-feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-export-import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-frontend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-manage-cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-edit-panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-product-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches-term-meta.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/class-woo-variation-swatches.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/class-getwooplugins-admin-menus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/class-getwooplugins-admin-settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/class-getwooplugins-plugin-deactivate-feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/class-getwooplugins-settings-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/css/getwooplugins-settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/html/deactive-feedback-dialog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/html/dialog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/html/settings-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/js/getwooplugins-form-field-dependency.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/js/getwooplugins-settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/js/jquery.tipTip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/getwooplugins/js/wp-color-picker-alpha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/html-product-settings-panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/html-settings-group.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/html-settings-sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/html-settings-tutorial.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/includes/themes-support.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/languages/woo-variation-swatches.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/uninstall.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woo-variation-swatches/woo-variation-swatches.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce-payments/includes/exceptions/class-invalid-price-exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/assets/client/admin/chunks/6766.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/assets/client/admin/chunks/6766.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/assets/client/admin/chunks/add-product-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/assets/client/admin/chunks/edit-product-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/assets/css/woocommerce-blocktheme-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/assets/css/woocommerce-blocktheme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/assets/images/onboarding/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/lib/packages/Psr/Container/ContainerExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/lib/packages/Psr/Container/ContainerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/lib/packages/Psr/Container/NotFoundExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/filter-reset-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/filter-reset-button/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/form-token-field/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/form-token-field/stories/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/form-token-field/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/form-token-field/vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/hooks/use-border-props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/hooks/use-color-props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/hooks/use-spacing-props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/hooks/use-typography-props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/utils/parse-style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/cart-checkout-shared/block-settings/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/cart-checkout-shared/sidebar-notices/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/block.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/edit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/inspector-controls.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-best-sellers/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-categories/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-categories/edit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-categories/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-category/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-category/block.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-category/edit-mode.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-category/edit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-category/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-category/inspector-controls.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/product-category/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/products/all-products/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/products/all-products/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/products/all-products/deprecated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/blocks/products/all-products/save.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/editor-components/sidebar-compatibility-notice/editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/editor-components/sidebar-compatibility-notice/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/editor-components/sidebar-compatibility-notice/use-compatibility-notice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/assets/js/icons/library/mini-cart-alt.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/all-products/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-accepted-payment-methods-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-express-payment-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-items-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-line-items-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-order-summary-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-order-summary-coupon-form-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-order-summary-discount-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-order-summary-fee-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-order-summary-heading-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-order-summary-shipping-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-order-summary-subtotal-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-order-summary-taxes-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/cart-totals-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-actions-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-billing-address-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-contact-information-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-express-payment-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-fields-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-order-note-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-order-summary-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-order-summary-cart-items-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-order-summary-coupon-form-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-order-summary-discount-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-order-summary-fee-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-order-summary-shipping-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-order-summary-subtotal-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-order-summary-taxes-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-payment-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-shipping-address-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-shipping-methods-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-terms-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/checkout-totals-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/empty-cart-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/empty-mini-cart-contents-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/filled-cart-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/filled-mini-cart-contents-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/general-style-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/general-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/mini-cart-footer-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/mini-cart-items-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/mini-cart-products-table-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/mini-cart-shopping-button-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/mini-cart-title-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/proceed-to-checkout-block/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/product-best-sellers/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/product-button--product-image--product-rating--product-sale-badge--product-title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/product-categories/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/build/product-category/block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/patterns/filters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockPatterns.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractInnerBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartAcceptedPaymentMethodsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartExpressPaymentBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartItemsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartLineItemsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryCouponFormBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryDiscountBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryFeeBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryHeadingBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryShippingBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummarySubtotalBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartOrderSummaryTaxesBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CartTotalsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutActionsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutBillingAddressBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutContactInformationBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutExpressPaymentBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutFieldsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderNoteBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryCartItemsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryCouponFormBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryDiscountBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryFeeBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryShippingBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummarySubtotalBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutOrderSummaryTaxesBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutPaymentBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutShippingAddressBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutShippingMethodsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutTermsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/CheckoutTotalsBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/EmptyCartBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/FilledCartBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/ProceedToCheckoutBlock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/Migration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/Options.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/src/Templates/ProductAttributeTemplate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/templates/templates/blockified/archive-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/templates/templates/blockified/product-search-results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/templates/templates/blockified/single-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/templates/templates/blockified/taxonomy-product_cat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/packages/woocommerce-blocks/templates/templates/blockified/taxonomy-product_tag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Caching/CacheEngine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Caching/CacheException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Caching/ObjectCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Caching/WpCacheEngine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/Admin/Orders/Edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/Admin/Orders/MetaBoxes/CustomMetaBox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/BatchProcessing/BatchProcessorInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/DataStores/Orders/OrdersTableMetaQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/DataStores/Orders/OrdersTableQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/DependencyManagement/ServiceProviders/BatchProcessingServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/DependencyManagement/ServiceProviders/ObjectCacheServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/DependencyManagement/ServiceProviders/OrderMetaBoxServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/DependencyManagement/ServiceProviders/OrdersControllersServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/Orders/CouponsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/Orders/TaxesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Internal/Utilities/COTMigrationUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../plugins/woocommerce/src/Utilities/OrderUtil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/federico-respini-sYffw0LNr7s-unsplash-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/federico-respini-sYffw0LNr7s-unsplash-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/federico-respini-sYffw0LNr7s-unsplash-275x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/federico-respini-sYffw0LNr7s-unsplash-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/federico-respini-sYffw0LNr7s-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/helena-lopes-PGnqT0rXWLs-unsplash-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/helena-lopes-PGnqT0rXWLs-unsplash-150x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/helena-lopes-PGnqT0rXWLs-unsplash-275x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/helena-lopes-PGnqT0rXWLs-unsplash-300x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/helena-lopes-PGnqT0rXWLs-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/wc-logs/fatal-errors-2022-09-08-29ea5b514428abff0a496f4767f031cd.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/wc-logs/fatal-errors-2022-09-09-29ea5b514428abff0a496f4767f031cd.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/wc-logs/fatal-errors-2022-09-12-29ea5b514428abff0a496f4767f031cd.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/wc-logs/httpswoocommerce.comwp-jsonwccominbox-notifications1.0notifications.json-2022-09-12-c024ff8103995ac56d40c0e05d135c53.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../uploads/wc-logs/httpswoocommerce.comwp-jsonwccominbox-notifications1.0notifications.json-2022-09-15-c024ff8103995ac56d40c0e05d135c53.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H4zxG3L7F60iCtUqwVV4ix7Cab" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "ts.external.directory.path": "/Users/gregoiremontoya/dev/phpSite/sens-nomades/wp-content/themes/sens-nomades/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f75b3db-adb9-4b7f-8b45-88cb1f7369c5" name="Changes" comment="" />
+      <created>1667559391301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667559391301</updated>
+      <workItem from="1667559395451" duration="3879000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ts/script.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
