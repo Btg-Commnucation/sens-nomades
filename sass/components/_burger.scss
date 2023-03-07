@@ -1,4 +1,4 @@
-@use '../abstracts' as var;
+@use "../abstracts" as var;
 
 .menu-menu-principal-container {
   display: flex;
@@ -6,7 +6,6 @@
 }
 
 .menu-btn {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,36 +94,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: -124%;
+    top: 100%;
     height: fit-content !important;
-
-    @media screen and (min-width: 396px) {
-      top: -117%;
-    }
-
-    @media screen and (min-width: 414px) {
-      top: -104%;
-    }
-
-    @media screen and (min-width: 448px) {
-      top: -89%;
-    }
-
-    @media screen and (min-width: 516px) {
-      top: -64%;
-    }
-
-    @media screen and (min-width: 588px) {
-      top: -43%;
-    }
-
-    @media screen and (min-width: 592px) {
-      top: -70%;
-    }
-
-    @media screen and (min-width: 828px) {
-      top: -47%;
-    }
   }
 }
 
@@ -138,7 +109,7 @@
   padding-bottom: 5rem;
   align-items: center;
   text-align: center;
-  transform: translateY(202px);
+  transform: translateY(0);
   border-radius: 10px;
 
   li {
