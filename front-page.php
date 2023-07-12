@@ -315,11 +315,13 @@ json_encode($resume_product_list);
                 },
                 setMapPoints() {
                     this.postsMap.forEach(product => {
+                        let imageData = product.image;
+                        let srcRegex = /src="(.*?)"/;
+                        let src = srcRegex.exec(imageData)[1];
                         const marker = L.marker([Number(product.longitude).toFixed(4), Number(product.latitude).toFixed(4)], {
                             icon: this.markerIcon
                         }).addTo(this.map);
-                        marker.bindPopup(`<div class="marker-map"><div class="upper">${ product
-                                .image }<div class="right-marker"><div class="fanion-container"><div
+                        marker.bindPopup(`<div class="marker-map"><div class="upper"><img src="${src}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" /><div class="right-marker"><div class="fanion-container"><div
                             class="days-spend">${ product
                                 .days }</div><div
                             class="price-marker">${ product.price }€</div></div><div class="theme__container"><div

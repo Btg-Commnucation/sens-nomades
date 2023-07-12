@@ -123,7 +123,7 @@ json_encode( $resume_product_list );
                     </div>
                 </div>
                 <div class="voyages-card__bottom">
-                    <h3><a :href="voyage.permalink">{{voyage.titre}}</a></h3>
+                    <h3><a :href="voyage.permalink" v-html="voyage.titre"></a></h3>
                     <p class="thematique">{{voyage.thematique}}</p>
                     <div class="prochain-depart">
                         <strong>Prochain(s) départ(s)</strong>
@@ -323,7 +323,7 @@ json_encode( $resume_product_list );
                 this.search = this.search.replaceAll( '%20', ' ' );
                 this.search = this.search.replaceAll( '%27', '\'' );
 
-                if ( this.search.length > 1 ) {
+                if ( this.search.length > 3 ) {
                     this.selectedStyle = `- ${ this.search }`;
                 }
 
