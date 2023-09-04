@@ -1,4 +1,4 @@
-@use '../abstracts' as var;
+@use "../abstracts" as var;
 
 main.product {
   margin-bottom: 4.6rem;
@@ -171,7 +171,9 @@ main.product {
     gap: 1.2rem;
   }
 
-  li, a, img {
+  li,
+  a,
+  img {
     height: 38px;
     width: 38px;
   }
@@ -182,7 +184,6 @@ main.product {
   font-size: 1.7rem;
 
   h2 {
-
     &:not(:first-of-type) {
       margin-top: 5.5rem;
     }
@@ -204,7 +205,7 @@ main.product {
   transition: 0.4s ease-in-out;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 8%;
     left: 2%;
@@ -229,7 +230,8 @@ main.product {
   padding: 3rem 4.1rem;
   font-size: 1.7rem;
 
-  strong, em {
+  strong,
+  em {
     text-decoration: underline;
     font-style: normal;
   }
@@ -241,7 +243,6 @@ main.product {
 }
 
 .intervenante {
-
   .intervenante-content {
     background: var.$sable;
     padding: 4.2rem 2.2rem;
@@ -376,8 +377,8 @@ main.product {
     top: 12%;
   }
 
-@media screen and (min-width: 1700px) {
-      top: 10%;
+  @media screen and (min-width: 1700px) {
+    top: 10%;
   }
 }
 
@@ -406,14 +407,14 @@ main.product {
   }
 }
 
-.where, .time {
+.where,
+.time {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 1.3rem;
 }
-
 
 .lieu {
   strong {
@@ -476,7 +477,6 @@ main.product {
   .options-text {
     margin-top: 6.1rem;
   }
-
 }
 
 .inclus h2 {
@@ -488,10 +488,10 @@ main.product {
   line-height: 1;
   @media screen and (min-width: 900px) {
     &::before {
-      content: '';
+      content: "";
       width: 34px;
       height: 33px;
-      background: url('../assets/inclus.svg') no-repeat;
+      background: url("../assets/inclus.svg") no-repeat;
       background-size: contain;
     }
   }
@@ -506,10 +506,10 @@ main.product {
   line-height: 1;
   @media screen and (min-width: 900px) {
     &::before {
-      content: '';
+      content: "";
       width: 37px;
       height: 33px;
-      background: url('../assets/non-inclus.svg') no-repeat;
+      background: url("../assets/non-inclus.svg") no-repeat;
       background-size: contain;
     }
   }
@@ -517,7 +517,7 @@ main.product {
 
 .conditions-vente {
   margin-top: 4.3rem;
-  background: #F8F8F8;
+  background: #f8f8f8;
   padding: 2.5rem 4rem;
 
   h3 {
@@ -553,7 +553,7 @@ div.aside {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #F8F8F8;
+  background: #f8f8f8;
   border-radius: 10px;
   width: min(100%, 379px);
 
@@ -595,6 +595,12 @@ div.aside {
     font-size: 1.8rem;
     text-align: center;
     margin-block: 2.3rem 2.5rem;
+  }
+
+  form:not[class="variations_form"] {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .variations_form {
@@ -687,7 +693,9 @@ div.aside {
     }
   }
 
-  .offer-button, .contact-button, .private-button {
+  .offer-button,
+  .contact-button,
+  .private-button {
     position: relative;
     transition: 0.4s ease-in-out;
 
@@ -797,11 +805,14 @@ div.aside {
   max-width: 379px;
 }
 
-.map, #map, .pictures img {
+.map,
+#map,
+.pictures img {
   border-radius: 10px;
 }
 
-.map, #map {
+.map,
+#map {
   height: 456px;
   width: 100%;
   max-width: 379px;
@@ -813,11 +824,15 @@ div.aside {
   text-align: center !important;
 }
 
-.woo-variation-swatches .variable-items-wrapper.radio-variable-items-wrapper .radio-variable-item.selected {
+.woo-variation-swatches
+  .variable-items-wrapper.radio-variable-items-wrapper
+  .radio-variable-item.selected {
   box-shadow: none !important;
 }
 
-.woo-variation-swatches .variable-items-wrapper.radio-variable-items-wrapper .radio-variable-item:hover {
+.woo-variation-swatches
+  .variable-items-wrapper.radio-variable-items-wrapper
+  .radio-variable-item:hover {
   box-shadow: none;
 }
 
@@ -860,7 +875,7 @@ select#pa_type-de-chambre {
     padding: 1rem 1.3rem;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       width: 0;
       height: 0;
@@ -904,7 +919,6 @@ bdi {
   margin: 0 !important;
 }
 
-
 .single_add_to_cart_button {
   background: #92b7bc !important;
   width: 100% !important;
@@ -931,7 +945,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
   width: 48px !important;
   height: 48px !important;
@@ -949,7 +963,8 @@ input[type=number] {
   width: 100%;
   margin-bottom: 1em;
 
-  .plus, .minus {
+  .plus,
+  .minus {
     background: var.$bleu_glacié;
     width: 48px !important;
     height: 48px;
@@ -1025,7 +1040,8 @@ input[type=number] {
       text-align: start;
     }
 
-    .price, .price bdi {
+    .price,
+    .price bdi {
       font-size: 1.7rem !important;
       color: var.$roche !important;
       font-weight: var.$black !important;
@@ -1124,7 +1140,7 @@ input[type=number] {
   display: flow-root;
 
   &.remove {
-      display: none;
+    display: none;
   }
 }
 
@@ -1140,7 +1156,7 @@ section.related.products {
   color: var.$sable;
 
   &::before {
-    content: '<';
+    content: "<";
     margin-right: 0.3em;
   }
 
@@ -1150,12 +1166,11 @@ section.related.products {
 }
 
 .mon-voyage__content .woocommerce-notices-wrapper .woocommerce-error li {
-    font-size: 1.7rem !important;
-    margin-bottom: 1em !important;
+  font-size: 1.7rem !important;
+  margin-bottom: 1em !important;
 }
 
 .wapf-field-radio {
-
   .wapf-field-input {
     width: 100%;
   }
