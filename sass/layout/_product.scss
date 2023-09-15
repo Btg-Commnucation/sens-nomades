@@ -597,8 +597,8 @@ div.aside {
     margin-block: 2.3rem 2.5rem;
   }
 
-  form:not[class="variations_form"] {
-    margin-bottom: 0;
+  form:not(.variations_form) {
+    margin-bottom: 0 !important;
     display: flex;
     flex-direction: column;
   }

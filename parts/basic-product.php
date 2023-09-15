@@ -225,7 +225,6 @@ endif; ?>
                 <div class="reservation">
                     <a href="#" id="reverver" @click="handleClick">Je réserve mon voyage</a>
                 </div>
-            <?php else : var_dump('non') ?>
             <?php endif; ?>
         </section>
         <section class="buttons">

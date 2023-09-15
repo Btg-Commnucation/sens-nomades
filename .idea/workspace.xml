@@ -238,10 +238,6 @@
       <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/helena-lopes-PGnqT0rXWLs-unsplash-275x300.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/helena-lopes-PGnqT0rXWLs-unsplash-300x300.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../uploads/2022/09/helena-lopes-PGnqT0rXWLs-unsplash.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-boutique.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-boutique.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,6 +287,7 @@
       <updated>1667559391301</updated>
       <workItem from="1667559395451" duration="3879000" />
       <workItem from="1684244881736" duration="31000" />
+      <workItem from="1693833763528" duration="4000" />
     </task>
     <servers />
   </component>
